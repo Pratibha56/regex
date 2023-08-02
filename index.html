@@ -51,8 +51,67 @@
         </dl>
        
     </ol>
-    <video src="video.mp4"></video>
-    <audio src="audio.ogg"></audio>
+    <video controls loop src="video.mp4"></video>
+    <audio controls src="audio.ogg"></audio>
+    <table border="2">
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>email</th>
+            <th>password</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td rowspan="2">pratibha</td>
+            <td colspan="3">dudipratibha1234@gmail.com</td>
+            <td>1234</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>amisha</td>
+            <td>amisha@gmail.com</td>
+            <td>3456</td>
+        </tr>
+
+    </table>
+    <form action="">
+        <label for="" style="color: red">name:</label>
+        <input type="text"  placeholder="enter your name" required autofocus> <br> <br>
+        email: <input type="email"> <br><br>
+        password: <input type="password"> <br><br>
+
+        gender: <input type="radio" name="gender"> male
+                <input type="radio" name="gender">female <br><br>
+
+        language : <input type="checkbox">hindi       
+                   <input type="checkbox">english
+                   <input type="checkbox">marwadi <br><br>
+        date : <input type="date"><br><br>
+        time : <input type="time"> <br><br>      
+        color : <input type="color"><br><br> 
+        file : <input type="file"><br><br> 
+        range : <input type="range"><br><br> 
+        number : <input type="number"><br><br> 
+        city: <select name="" id="">
+            <option value="">none</option>
+            <option value="">jaipur</option>
+            <option value="">jodhpur</option>
+            <option value="">sikar</option>
+        </select>    
+        <button>submit</button>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        
+    </form>
+
+    <div>
+        <h1>my name is <span style="color:red">pratibha</span></h1>
+        html <progress id="file" max="100" value="10"> </progress> <br><br>
+        css <progress id="file" max="100" value="70"> </progress> <br><br>
+        java script <progress id="file" max="100" value="80"> </progress> <br><br>
+        react <progress id="file" max="100" value="60"> </progress> <br><br>
+
+    </div>
 </body>
 </html>
 
